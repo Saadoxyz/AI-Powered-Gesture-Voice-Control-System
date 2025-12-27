@@ -1,0 +1,42 @@
+{
+  "static_gestures": {
+    "open_palm": {
+      "fingers": [1, 1, 1, 1, 1],
+      "description": "All fingers extended"
+    },
+    "fist": {
+      "fingers": [0, 0, 0, 0, 0],
+      "description": "All fingers closed"
+    },
+    "thumbs_up": {
+      "fingers": [1, 0, 0, 0, 0],
+      "description": "Only thumb extended"
+    },
+    "peace": {
+      "fingers": [0, 1, 1, 0, 0],
+      "description": "Index and middle extended"
+    },
+    "pointing": {
+      "fingers": [0, 1, 0, 0, 0],
+      "description": "Only index finger extended"
+    }
+  },
+  "dynamic_gestures": {
+    "swipe_right": {
+      "type": "horizontal_movement",
+      "direction": "right"
+    },
+    "swipe_left": {
+      "type": "horizontal_movement",
+      "direction": "left"
+    },
+    "swipe_up": {
+      "type": "vertical_movement",
+      "direction": "up"
+    },
+    "swipe_down": {
+      "type": "vertical_movement",
+      "direction": "down"
+    }
+  }
+}

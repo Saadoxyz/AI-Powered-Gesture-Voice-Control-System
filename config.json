@@ -1,0 +1,30 @@
+{
+  "camera": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "hand_detection": {
+    "max_hands": 2,
+    "min_detection_confidence": 0.6,
+    "min_tracking_confidence": 0.5,
+    "smoothing_factor": 0.5
+  },
+  "gesture_recognition": {
+    "confidence_threshold": 0.70,
+    "cooldown_time": 0.4,
+    "use_ml_model": false
+  },
+  "system_control": {
+    "slide_mode_enabled": true,
+    "music_mode_enabled": true,
+    "volume_step": 2,
+    "scroll_speed": 3
+  },
+  "ui": {
+    "theme": "dark",
+    "accent_color": "#1f6aa5",
+    "show_landmarks": true,
+    "show_fps": true
+  }
+}
