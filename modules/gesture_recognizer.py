@@ -12,8 +12,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 import pickle
 from collections import deque
-
-
 class GestureRecognizer:
     def __init__(self, config):
         """Initialize Gesture Recognizer"""
